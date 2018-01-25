@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
-       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
-       xmlns:interface="http://ros.org/wiki/xacro"
-       xmlns:xacro="http://ros.org/wiki/xacro"
-       name="pr2" >
+<robot name="pr2" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <!-- The following included files set up definitions of parts of the robot body -->
   <!-- misc common stuff? -->
@@ -166,5 +162,4 @@
       </xacro:kinect_prosilica_camera_swept_back_v0>
     </xacro:if>
   </xacro:unless>
-
 </robot>
